@@ -26,7 +26,9 @@ def show_set(setid):
 @app.route("/set/<int:setid>/edit")
 def edit_set(setid):
     name = input('Enter new set name: ');
-    modifySet(setid,name);
-    pass
+    if(modifySet(setid,name))
+    return true;
+    else
+    return false;
 
 
