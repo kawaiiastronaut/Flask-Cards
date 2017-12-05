@@ -1,8 +1,9 @@
 from flask import Flask
 app = Flask(__name__)
-
+    $ python helpers.py 
 @app.route("/")
 def login_or_redirect():
+    
     pass
 
 @app.route("/sets-home")
@@ -15,8 +16,11 @@ def show_settings():
 
 @app.route("/set/<int:setid>")
 def show_set(setid):
-    pass
+    return getCards(setid);
 
 @app.route("/set/<int:setid>/edit")
 def edit_set(setid):
+    
     pass
+
+
