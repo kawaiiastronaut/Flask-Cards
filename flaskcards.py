@@ -20,7 +20,7 @@ def show_set(setid):
 
 @app.route("/set/<int:setid>/edit")
 def edit_set(setid):
-    
+    modifySet(setid,%s);
     pass
 
 
