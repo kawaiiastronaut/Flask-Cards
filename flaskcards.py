@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
-    $python helpers.py 
+    python helpers.py 
 @app.route("/")
 def login_or_redirect():
     
